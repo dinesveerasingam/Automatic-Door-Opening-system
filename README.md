@@ -35,3 +35,39 @@ Traditional lock-and-key systems have inherent security risks. This project addr
 
 ---
 
+## Circuit Design  
+
+### Block Diagram  
+![Block Diagram]("C:\Users\DELL\Downloads\Block_diagram.png")  
+
+### Circuit Schematic  
+![Circuit Schematic]("C:\Users\DELL\Downloads\Schematic_design.png")  
+
+---
+
+## How It Works  
+
+1. **Password Entry**: The user enters a password using the 4x4 keypad.  
+2. **Verification**: The system checks the input against a stored password.  
+3. **Access Control**:  
+   - Correct password: Unlocks the electric lock and activates the servo motor.  
+   - Incorrect password: Denies access and displays an error message.  
+   - Three consecutive wrong attempts: Sends an alert to the owner's phone via GSM.  
+4. **Reset and Re-entry**: The system resets for new input after each attempt.  
+
+---
+
+## Challenges  
+
+- Ensuring hardware-software integration for seamless functionality  
+- Addressing timing and synchronization between components  
+- Implementing secure password storage and efficient power management  
+
+---
+
+## Future Enhancements  
+
+- Add biometric authentication for enhanced security  
+- Enable remote locking and unlocking through mobile apps  
+- Incorporate backup power for uninterrupted operation  
+
