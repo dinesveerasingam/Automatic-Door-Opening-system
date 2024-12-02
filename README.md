@@ -35,16 +35,6 @@ Traditional lock-and-key systems have inherent security risks. This project addr
 
 ---
 
-## Circuit Design  
-
-### Block Diagram  
-![Block Diagram]("C:\Users\DELL\Downloads\Block_diagram.png")  
-
-### Circuit Schematic  
-![Circuit Schematic]("C:\Users\DELL\Downloads\Schematic_design.png")  
-
----
-
 ## How It Works  
 
 1. **Password Entry**: The user enters a password using the 4x4 keypad.  
