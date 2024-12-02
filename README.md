@@ -53,11 +53,3 @@ Traditional lock-and-key systems have inherent security risks. This project addr
 - Addressing timing and synchronization between components  
 - Implementing secure password storage and efficient power management  
 
----
-
-## Future Enhancements  
-
-- Add biometric authentication for enhanced security  
-- Enable remote locking and unlocking through mobile apps  
-- Incorporate backup power for uninterrupted operation  
-
